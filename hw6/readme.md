@@ -2,40 +2,6 @@
 
 本次作业要求针对南开校内网站构建Web搜索引擎。
 
-#### 0.操作演示
-
-因为某些原因，演示视频没法录声音了orz，所以我在这里首先向您以文字的方式介绍一下功能。
-
-（0）首先，运行homepage.py，提示“请输入用户名”，可以输入任意用户名。
-
-回车之后，出现如下选项，可以选择需要的功能。
-
-<img src="C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213222313929.png" alt="image-20201213222313929" style="zoom:67%;" />
-
-（1）输入1，将提示输入学院简称（计算机学院为cc），和查询词，回车得到结果：
-
-![image-20201213222444237](C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213222444237.png)
-
-也支持短语查询：如“人工 智能”：
-
-![image-20201213223051629](C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213223051629.png)
-
-（2）输入2，进行全站查询：以查询软件学院的王超老师为例
-
-![image-20201213225851345](C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213225851345.png)
-
-（3）输入3，可以查看查询日志：
-
-![image-20201213223159354](C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213223159354.png)
-
-（4）输入4，清空日志
-
-<img src="C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213223231363.png" alt="image-20201213223231363" style="zoom:67%;" />
-
-（5）退出：查询中输入x即可退出，主目录下输入5退出。
-
-<img src="C:\Users\Mika\AppData\Roaming\Typora\typora-user-images\image-20201213230458228.png" alt="image-20201213230458228" style="zoom:67%;" />
-
 #### 1.网页抓取(HTTrack Website Copier)
 
 因为可以自由选取工具，所以我使用了网页抓取软件HTTrack Website Copier抓取网页。输入要爬取的主站、爬取文件类型、爬取最大深度等关键规则信息，该软件可以自动进行爬取，并将页面按照url路径在相应文件夹中存为html格式。
