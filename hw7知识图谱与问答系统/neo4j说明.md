@@ -24,6 +24,8 @@ neo4j是一个图数据库，可以基于我们构造的三元组[实体，属�
 
 初始用户名、密码均为neo4j。
 
+每次都要通过neo4j console启动neo4j。
+
 #### 2.安装py2neo
 
 py2neo是neo4j的python驱动。
