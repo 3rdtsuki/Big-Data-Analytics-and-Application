@@ -20,7 +20,7 @@ neo4j是一个图数据库，可以基于我们构造的三元组[实体，类�
 
 - neo4j console时可能报错Invoke-Neo4j : Could not find java。这时候需要修改环境变量，将JAVA_HOME设置成java.exe的路径（**没有\bin！**）
 
-访问http://localhost:7474/browser/，初始用户名、密码均为neo4j。
+访问http://localhost:7474/browser，初始用户名、密码均为neo4j。
 
 #### 2.安装py2neo
 
@@ -66,5 +66,5 @@ with driver.session() as session:
                 print(name1, relation, name2, str(e))
 ```
 
-然后进入到http://localhost:7474/browser/，选择左边的DataBase，点击Node Labels的Node，这样就可以看到这张图更新啦。
+然后进入到http://localhost:7474/browser，选择左边的DataBase，点击Node Labels的Node，这样就可以看到这张图更新啦。
 
