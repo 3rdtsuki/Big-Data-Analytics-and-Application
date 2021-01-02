@@ -145,7 +145,7 @@ class KnowledgeGraph:
 
     def make_graph(self):
         # cmd输入neo4j console启动neo4j
-        driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "mofashiqlove"))
+        driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "password"))
         with driver.session() as session:
             lines = open('./triples.txt', 'r', encoding="utf-8").readlines()
             for i, line in enumerate(lines):
