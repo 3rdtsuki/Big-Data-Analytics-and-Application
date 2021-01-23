@@ -15,7 +15,7 @@ def idf(term):
         word_list=doc[i].split(' ')
         if term in word_list:
             cnt+=1
-    return math.log(len(doc)/cnt,2)
+    return math.log(len(doc)/cnt,10)
 
 if __name__=="__main__":
     dic=[]
@@ -31,7 +31,7 @@ if __name__=="__main__":
     for d in range(len(doc)):
         for t in dic:
             if tf(t,d)>0:
-                print(1+math.log(tf(t,d)),end=" ")
+                print(1+math.log(tf(t,d),10),end=" ")
             else:
                 print(0, end=" ")
         print()
